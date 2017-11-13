@@ -15,6 +15,11 @@
 		E5F5F4AC1FB979E70056B824 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F5F4AB1FB979E70056B824 /* main.m */; };
 		E5F5F4B61FB979E70056B824 /* HW01_DuncansonLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F5F4B51FB979E70056B824 /* HW01_DuncansonLTests.m */; };
 		E5F5F4C11FB979E70056B824 /* HW01_DuncansonLUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F5F4C01FB979E70056B824 /* HW01_DuncansonLUITests.m */; };
+		E5F5F4D01FB97A370056B824 /* Parks.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F5F4CF1FB97A370056B824 /* Parks.m */; };
+		E5F5F4D31FB97AC00056B824 /* ParksTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F5F4D21FB97AC00056B824 /* ParksTableViewController.m */; };
+		E5F5F4D61FB97AF00056B824 /* ParkTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F5F4D51FB97AF00056B824 /* ParkTableViewCell.m */; };
+		E5F5F4D91FB97B300056B824 /* ParkDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F5F4D81FB97B300056B824 /* ParkDetailViewController.m */; };
+		E5F5F4DB1FB98ED20056B824 /* smallParkImages in Resources */ = {isa = PBXBuildFile; fileRef = E5F5F4DA1FB98ED10056B824 /* smallParkImages */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,15 @@
 		E5F5F4BC1FB979E70056B824 /* HW01-DuncansonLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HW01-DuncansonLUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5F5F4C01FB979E70056B824 /* HW01_DuncansonLUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HW01_DuncansonLUITests.m; sourceTree = "<group>"; };
 		E5F5F4C21FB979E80056B824 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5F5F4CE1FB97A370056B824 /* Parks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Parks.h; sourceTree = "<group>"; };
+		E5F5F4CF1FB97A370056B824 /* Parks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Parks.m; sourceTree = "<group>"; };
+		E5F5F4D11FB97AC00056B824 /* ParksTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParksTableViewController.h; sourceTree = "<group>"; };
+		E5F5F4D21FB97AC00056B824 /* ParksTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParksTableViewController.m; sourceTree = "<group>"; };
+		E5F5F4D41FB97AF00056B824 /* ParkTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParkTableViewCell.h; sourceTree = "<group>"; };
+		E5F5F4D51FB97AF00056B824 /* ParkTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParkTableViewCell.m; sourceTree = "<group>"; };
+		E5F5F4D71FB97B300056B824 /* ParkDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParkDetailViewController.h; sourceTree = "<group>"; };
+		E5F5F4D81FB97B300056B824 /* ParkDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParkDetailViewController.m; sourceTree = "<group>"; };
+		E5F5F4DA1FB98ED10056B824 /* smallParkImages */ = {isa = PBXFileReference; lastKnownFileType = folder; path = smallParkImages; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +115,14 @@
 		E5F5F49B1FB979E70056B824 /* HW01-DuncansonL */ = {
 			isa = PBXGroup;
 			children = (
+				E5F5F4D71FB97B300056B824 /* ParkDetailViewController.h */,
+				E5F5F4D81FB97B300056B824 /* ParkDetailViewController.m */,
+				E5F5F4D41FB97AF00056B824 /* ParkTableViewCell.h */,
+				E5F5F4D51FB97AF00056B824 /* ParkTableViewCell.m */,
+				E5F5F4D11FB97AC00056B824 /* ParksTableViewController.h */,
+				E5F5F4D21FB97AC00056B824 /* ParksTableViewController.m */,
+				E5F5F4CE1FB97A370056B824 /* Parks.h */,
+				E5F5F4CF1FB97A370056B824 /* Parks.m */,
 				E5F5F49C1FB979E70056B824 /* AppDelegate.h */,
 				E5F5F49D1FB979E70056B824 /* AppDelegate.m */,
 				E5F5F49F1FB979E70056B824 /* ViewController.h */,
@@ -109,6 +131,7 @@
 				E5F5F4A51FB979E70056B824 /* Assets.xcassets */,
 				E5F5F4A71FB979E70056B824 /* LaunchScreen.storyboard */,
 				E5F5F4AA1FB979E70056B824 /* Info.plist */,
+				E5F5F4DA1FB98ED10056B824 /* smallParkImages */,
 				E5F5F4AB1FB979E70056B824 /* main.m */,
 			);
 			path = "HW01-DuncansonL";
@@ -238,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5F5F4DB1FB98ED20056B824 /* smallParkImages in Resources */,
 				E5F5F4A91FB979E70056B824 /* LaunchScreen.storyboard in Resources */,
 				E5F5F4A61FB979E70056B824 /* Assets.xcassets in Resources */,
 				E5F5F4A41FB979E70056B824 /* Main.storyboard in Resources */,
@@ -265,9 +289,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5F5F4D31FB97AC00056B824 /* ParksTableViewController.m in Sources */,
 				E5F5F4A11FB979E70056B824 /* ViewController.m in Sources */,
+				E5F5F4D91FB97B300056B824 /* ParkDetailViewController.m in Sources */,
 				E5F5F4AC1FB979E70056B824 /* main.m in Sources */,
 				E5F5F49E1FB979E70056B824 /* AppDelegate.m in Sources */,
+				E5F5F4D01FB97A370056B824 /* Parks.m in Sources */,
+				E5F5F4D61FB97AF00056B824 /* ParkTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
