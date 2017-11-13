@@ -25,6 +25,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.navigationItem.title = self.myPark.name;
     self.parkImageView.image = self.myPark.parkImage;
     self.parkMapImageView.image = self.myPark.parkMap;
     self.parkName.text = self.myPark.name;
@@ -33,11 +34,14 @@
     [df setDateFormat:@"MMM dd yyyy"];
     self.parkYear.text = [df stringFromDate:self.myPark.year];
     self.parkAddress.text = self.myPark.address;
+    [_parkDirections setScrollEnabled:NO];
     self.parkDirections.text = self.myPark.parkDirections;
+    [_parkDirections setScrollEnabled:YES];
     self.parkDirections.editable = NO;
     self.parkDescription.editable = NO;
+    [_parkDescription setScrollEnabled:NO];
     self.parkDescription.text = self.myPark.parkDescription;
-    
+    [_parkDescription setScrollEnabled:YES];
 }
 
 - (void)didReceiveMemoryWarning {

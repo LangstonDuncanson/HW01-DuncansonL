@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE647BE11FBA619B00DED57A /* parkMaps in Resources */ = {isa = PBXBuildFile; fileRef = CE647BE01FBA619B00DED57A /* parkMaps */; };
+		CE647BE31FBA64AD00DED57A /* bigParkImages in Resources */ = {isa = PBXBuildFile; fileRef = CE647BE21FBA64AD00DED57A /* bigParkImages */; };
 		E5F5F49E1FB979E70056B824 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F5F49D1FB979E70056B824 /* AppDelegate.m */; };
 		E5F5F4A11FB979E70056B824 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F5F4A01FB979E70056B824 /* ViewController.m */; };
 		E5F5F4A41FB979E70056B824 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5F5F4A21FB979E70056B824 /* Main.storyboard */; };
@@ -40,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE647BE01FBA619B00DED57A /* parkMaps */ = {isa = PBXFileReference; lastKnownFileType = folder; path = parkMaps; sourceTree = "<group>"; };
+		CE647BE21FBA64AD00DED57A /* bigParkImages */ = {isa = PBXFileReference; lastKnownFileType = folder; path = bigParkImages; sourceTree = "<group>"; };
 		E5F5F4991FB979E70056B824 /* HW01-DuncansonL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW01-DuncansonL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5F5F49C1FB979E70056B824 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E5F5F49D1FB979E70056B824 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -115,6 +119,8 @@
 		E5F5F49B1FB979E70056B824 /* HW01-DuncansonL */ = {
 			isa = PBXGroup;
 			children = (
+				CE647BE21FBA64AD00DED57A /* bigParkImages */,
+				CE647BE01FBA619B00DED57A /* parkMaps */,
 				E5F5F4D71FB97B300056B824 /* ParkDetailViewController.h */,
 				E5F5F4D81FB97B300056B824 /* ParkDetailViewController.m */,
 				E5F5F4D41FB97AF00056B824 /* ParkTableViewCell.h */,
@@ -264,7 +270,9 @@
 				E5F5F4DB1FB98ED20056B824 /* smallParkImages in Resources */,
 				E5F5F4A91FB979E70056B824 /* LaunchScreen.storyboard in Resources */,
 				E5F5F4A61FB979E70056B824 /* Assets.xcassets in Resources */,
+				CE647BE31FBA64AD00DED57A /* bigParkImages in Resources */,
 				E5F5F4A41FB979E70056B824 /* Main.storyboard in Resources */,
+				CE647BE11FBA619B00DED57A /* parkMaps in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

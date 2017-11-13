@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:HW01-DuncansonL.xcodeproj">
+      location = "group:/Users/user/Documents/HW01-DuncansonL/HW01-DuncansonL/parkMaps">
+   </FileRef>
+   <FileRef
+      location = "group:parkMaps">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>
